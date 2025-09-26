@@ -2,11 +2,11 @@
 body{
 background-color: #fcf7f2;
 background-image: url("./img/polka.png");
-background-size: 24px 24px;
-  background-repeat: repeat;
-  margin: 0;
-  padding: 0 20px 24px 20px;
-  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+background-size: 120px 120px;
+background-repeat: repeat;
+margin: 0;
+padding: 0 20px 24px 20px;
+font-family: "Varela Round", Arial, Helvetica, sans-serif;
 }
 
 

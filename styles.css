@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(50,122,167);
+  background-color: #FDF6E3;
   padding: 0 20px 20px 20px;
   margin: 0;
 }
@@ -11,7 +11,7 @@ p{
 }
 
 h1, h2, h3 {
-  color: rgb(255,255,255);
+  color: #4BB2F2;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   border-bottom: 2px solid rgb(87,185,178);
   padding-top: 10px;
@@ -25,7 +25,7 @@ h1{ font-size: 2em; }
 #logo {
   font-family: Baskerville, Palatino, serif; 
   font-size: 2em;
-  color: rgba(255,255,255,.9);
+  color: #F25CA2;
   font-style: italic;
   text-align: center;
   margin-bottom: 30px;
@@ -44,7 +44,7 @@ h1{ font-size: 2em; }
   border-radius: 8px 8px 8px 8px;
 }
 
-.note strong { color: #fc6512; }
+.note strong { color: #F2C230; }
 
 article{
   max-width: 760px;

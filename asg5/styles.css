@@ -37,8 +37,8 @@ li{
 
 
 .guest{
-  background-color: #FFFFFF;              /* simple card */
-  border: 2px solid #3C82D6;              /* blue border */
+  background-color: #FFFFFF;
+  border: 2px solid #3C82D6;
   border-radius: 12px;
   padding: 12px;
   margin: 12px 0 14px;
@@ -116,15 +116,15 @@ button[type="submit"]{
   font-size: 1rem;
   border: 2px solid #D37A2E;
   border-radius: 10px;
-  background-color: #E57B8C;  /* soft pink accent */
+  background-color: #E57B8C;
   color: #fff;
   cursor: pointer;
 }
 button[type="submit"]:hover{
-  background-color: #D37A2E;  /* orange on hover */
+  background-color: #D37A2E;
 }
 
-/* Minimal link state (if you add any) */
+
 a{
   color: #3C82D6;
   text-decoration: none;

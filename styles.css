@@ -41,6 +41,7 @@ h1{ font-size: 2em; }
   margin-top: 14px;
   margin-bottom: 16px;
   padding: 12px;
+  border-radius: 15px;
 }
 
 .note strong { color: #fc6512; }

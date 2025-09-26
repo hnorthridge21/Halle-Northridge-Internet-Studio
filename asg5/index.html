@@ -1,35 +1,91 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Assignment 5</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Assignment 5 — Dinner Invitation</title>
 
-  <link href="styles.css" rel="stylesheet">
-  
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<article>
-<h1>Dinner Invitation</h1>
-<h2>Guests</h2>
-<h3></h3>
-    <p>An image, At least 1 paragraph about the individual and why you would like to have them over.</p>
-  
-<h3></h3>
-    <p></p>
-  
-<h3></h3>
-    <p></p>
 
-<h2>What's on the Menu?</h2>
-	<ul>
-		<li>Appetizer-</li>
-	  <li>Main Course-</li>
-    <li>Dessert-</li>
-	</ul>
+  <article>
+    <h1>Dinner Invitation</h1>
 
+    <h2>Guests</h2>
+
+
+    <div class="guest">
+      <h3>
+        <img class="avatar" src="./img/frida.jpg" alt="Portrait of Frida Kahlo">
+        Frida Kahlo
+      </h3>
+      <p>
+        I’d love to hear Frida talk about turning pain into power and how she used bold color to frame identity.
+        Her fearless self-expression would make for an unforgettable, honest conversation over dinner.
+      </p>
+    </div>
+
+
+    <div class="guest">
+      <h3>
+        <img class="avatar" src="./img/bourdain.jpg" alt="Portrait of Anthony Bourdain">
+        Anthony Bourdain
+      </h3>
+      <p>
+        Bourdain celebrated culture through food. I’d ask him about the stories behind simple dishes,
+        and how sharing a meal can connect people across crazy differences.
+      </p>
+    </div>
+
+
+    <div class="guest">
+      <h3>
+        <img class="avatar" src="./img/miyazaki.jpg" alt="Portrait of Hayao Miyazaki">
+        Hayao Miyazaki
+      </h3>
+      <p>
+        Miyazaki’s worlds feel tender and alive. I’d love to hear about his creative rituals, quiet details,
+        and how he brings warmth and wonder to everyday moments (and meals!).
+      </p>
+    </div>
+
+    <h2>What’s on the Menu?</h2>
+    <ul class="menu">
+      <li><strong>Appetizers:</strong> Citrus-herb olives, grilled peaches with burrata, sesame edamame</li>
+      <li><strong>Main Course:</strong> Garlic-butter salmon, miso roasted veggies, saffron rice</li>
+      <li><strong>Dessert:</strong> Dark chocolate tart with sea salt, green tea mochi</li>
+    </ul>
+
+    <h2>Please RSVP Below</h2>
+    <form class="rsvp" action="#" method="post">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required>
+
+      <fieldset class="guest-field">
+        <legend>Will you be bringing a guest?</legend>
+        <label><input type="radio" name="plusone" value="yes"> Yes</label>
+        <label><input type="radio" name="plusone" value="no"> No</label>
+      </fieldset>
+
+      <label for="diet">Dietary preferences</label>
+      <textarea id="diet" name="diet" rows="4" placeholder="Let us know about allergies or preferences…"></textarea>
+
+      <button type="submit">Submit RSVP</button>
+    </form>
+
+  </article>
+
+</body>
+</html>
 
 
   

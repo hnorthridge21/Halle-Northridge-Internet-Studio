@@ -37,6 +37,7 @@ h1{
 .note {
     color: black;
     border: 2px solid white;
+    background-color: rgb(69,189,102);
     margin-top: 25px;
     margin-bottom: 35px;
     padding: 20px;

@@ -44,7 +44,7 @@ h1{ font-size: 2em; }
   border-radius: 12px;
 }
 
-.note strong { color: #F2505D;}
+.note strong { color: black;}
 
 article{
   max-width: 760px;

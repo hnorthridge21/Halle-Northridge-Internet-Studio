@@ -1,7 +1,6 @@
 body {
-  background: 
-    linear-gradient(rgba(245,245,242,0.85), rgba(245,245,242,0.85)), 
-    url("./assets/img/paint-texture.jpg");
+  background-color: #F5F5F2; /* cream base */
+  background-image: url("./assets/img/paint-texture-small.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;  

@@ -1,7 +1,9 @@
 
 body{
-  background-color: #F5F5F2;
-  background-image: url("./img/paper-tile.png");
+background-color: #fcf7f2;
+opacity: 0.8;
+background-image: url("./img/polka.png");
+background-size: 24px 24px;
   background-repeat: repeat;
   margin: 0;
   padding: 0 20px 24px 20px;

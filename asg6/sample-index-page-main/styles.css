@@ -24,6 +24,9 @@
 
  Insert all your glorious CSS styles below! */
 
+html {
+  background: url('images/background.webp') repeat;}
+
 h1, h2, h3{font-family: "DM Serif Display", serif;}
 h2{font-size: 10px;
    line-height: 5px;}

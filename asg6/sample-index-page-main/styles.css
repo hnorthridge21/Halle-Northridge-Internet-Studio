@@ -23,3 +23,7 @@
        
 
  Insert all your glorious CSS styles below! */
+
+h1, h2, h3{font-family: "DM Serif Display", serif;}
+
+p{font-family: "Karla", sans-serif;}

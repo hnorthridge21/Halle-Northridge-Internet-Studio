@@ -24,7 +24,8 @@
 
  Insert all your glorious CSS styles below! */
 
-h1, h2, h3{font-family: "DM Serif Display", serif;
-          font-size: 40px;}
+h1, h2, h3{font-family: "DM Serif Display", serif;}
+h2{font-size: 20px;}
+h3{font-size: 10px;}
 
 p{font-family: "Karla", sans-serif;}

@@ -24,8 +24,12 @@
 
  Insert all your glorious CSS styles below! */
 
-html {
-  background: url('images/background.webp') repeat;}
+
+body{
+background-color: #fcf7f2;
+background-image: url("./img/background.webp");
+background-size: 120px 120px;
+background-repeat: repeat;}
 
 h1, h2, h3{font-family: "DM Serif Display", serif;}
 h2{font-size: 15px;}

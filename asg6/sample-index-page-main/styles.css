@@ -65,3 +65,10 @@ p {
   color: #555;
   line-height: 1.8;
 }
+
+.hat-image {
+  float: right;
+  width: 100px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}

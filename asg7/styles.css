@@ -50,6 +50,24 @@ p, ul{
       font-family: 'Alan Sans';
 }
 
+aside{
+  width: 30%;
+  float: right;
+  margin: 10px;
+  background-color: rgb(250,235,190);
+  padding: 10px 20px;
+  border: 1px dotted rgb(252,101,18);
+  border-top: 20px solid rgb(252,101,19);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+
+aside h2{
+  border: none;
+  margin-top: 0;
+  padding: 0;
+}
+
 
 
 

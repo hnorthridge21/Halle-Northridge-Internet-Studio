@@ -12,7 +12,6 @@ body {
   background-image: url('images/background.webp'); /* Full-page background */
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: pink;
   background-attachment: fixed;
   color: #2c2c2c; /* Dark neutral text color */
   margin: 0;
@@ -38,7 +37,7 @@ h3 {
 
 p {
   font-size: 1em;
-  line-height: 1.7em; /* Modified leading for readability */
+  line-height: 1.7em;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px 15px;
   border-radius: 10px;

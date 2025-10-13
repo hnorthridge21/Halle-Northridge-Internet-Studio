@@ -9,7 +9,7 @@ p {
 
 
 body {
-  background-image: url('images/background.jpg'); /* Full-page background */
+  background-image: url('images/background.webp'); /* Full-page background */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

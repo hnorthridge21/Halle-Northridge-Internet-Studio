@@ -12,6 +12,7 @@ body {
   background-image: url('images/background.webp'); /* Full-page background */
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: pink;
   background-attachment: fixed;
   color: #2c2c2c; /* Dark neutral text color */
   margin: 0;

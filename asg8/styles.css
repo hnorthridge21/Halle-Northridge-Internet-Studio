@@ -16,12 +16,27 @@
   src: url('../fonts/fredoka-v17-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+:root {
+  /* Core brand colors */
+  --color-primary: #FF6B6B;   /* Warm Coral — fun and inviting */
+  --color-secondary: #FFD93D; /* Lemon Yellow — attention-grabbing */
+  --color-accent: #8FF7A7;    /* Mint Green — fresh and creative */
+
+  /* Neutrals */
+  --color-bg: #FFF9F0;        /* Off-white — soft and warm neutral */
+  --color-text: #2D2D2D;      /* Charcoal Gray — balances the bright tones */
+
+  /* Supporting (optional) */
+  --color-muted: #666666;
+  --color-border: #EDE4D9;
+}
+
 body {
   font-family: 'Baloo 2', sans-serif;
   font-weight: 400;
   line-height: 1.65;
-  color: #222;
-  background-color: #fffaf7;
+  color: var(--color-text);
+  background-color: var(--color-bg);
   margin: 0;
   padding: 0;
 }

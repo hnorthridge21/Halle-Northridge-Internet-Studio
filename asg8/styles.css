@@ -1,34 +1,25 @@
-/* baloo-2-regular - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Baloo 2';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/baloo-2-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/baloo-2-v23-latin-regular.woff2') format('woff2'); 
 }
 
-/* fredoka-500 - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/fredoka-v17-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/fredoka-v17-latin-500.woff2') format('woff2'); 
 }
 
 :root {
-  /* Core brand colors */
-  --color-primary: #FF6B6B;   /* Warm Coral — fun and inviting */
-  --color-secondary: #FFD93D; /* Lemon Yellow — attention-grabbing */
-  --color-accent: #8FF7A7;    /* Mint Green — fresh and creative */
-
-  /* Neutrals */
-  --color-bg: #FFF9F0;        /* Off-white — soft and warm neutral */
-  --color-text: #2D2D2D;      /* Charcoal Gray — balances the bright tones */
-
-  /* Supporting (optional) */
-  --color-muted: #666666;
-  --color-border: #EDE4D9;
+  --color-primary: #FF6B6B;   
+  --color-secondary: #FFD93D;
+  --color-accent: #8FF7A7;  
+  --color-bg: #FFF9F0;      
+  --color-text: #2D2D2D;     
 }
 
 body {

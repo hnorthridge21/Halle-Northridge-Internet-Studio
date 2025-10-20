@@ -21,8 +21,7 @@
 }
 
 html {
-  font-size: 16px;
-  scroll-behavior: smooth;
+  font-size: 18px; /* increased base size for more comfortable text */
 }
 
 body {
@@ -32,37 +31,34 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   margin: 0;
-  padding: 4rem 3rem; /* added more room all around */
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 3rem 8vw; /* responsive horizontal padding instead of fixed width */
 }
 
 h1 {
   font-family: 'Fredoka', sans-serif;
   font-weight: 500;
-  font-size: clamp(2.5rem, 2rem + 2vw, 3.25em);
+  font-size: clamp(2.8rem, 2.4rem + 2vw, 3.5rem);
   line-height: 1.15;
   color: #1a1a1a;
   margin-top: 0;
-  margin-bottom: 2rem; /* more space after heading */
+  margin-bottom: 2rem;
   font-style: italic;
 }
 
 p {
-  font-size: 1.05em;
-  margin-bottom: 2rem; /* more breathing room below paragraphs */
-  max-width: 70ch; /* wider readable line width */
+  font-size: 1.1em;
+  margin-bottom: 2rem;
+  max-width: 90ch; /* comfortable line width without shrinking the layout */
 }
 
 ul {
   list-style-type: disc;
   padding-left: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 li {
-  margin-bottom: 1rem; /* more vertical spacing between list items */
-  font-size: 1.05em;
+  margin-bottom: 1rem;
+  font-size: 1.1em;
   line-height: 1.6;
 }

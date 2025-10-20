@@ -1,11 +1,9 @@
-
 @font-face {
   font-family: 'Baloo 2';
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/baloo-2-v23-latin-regular.woff2') format('woff2'); 
 }
-
 
 @font-face {
   font-family: 'Fredoka';
@@ -22,6 +20,11 @@
   --color-text: #2D2D2D;     
 }
 
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Baloo 2', sans-serif;
   font-weight: 400;
@@ -29,63 +32,36 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   margin: 0;
-  padding: 0;
+  padding: 2rem 1.5rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-p {
-  font-size: 1em;
-  margin-bottom: 1em;
-}
-
-
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1 {
   font-family: 'Fredoka', sans-serif;
   font-weight: 500;
-  line-height: 1.15;
-  margin-top: 0;
-  color: #1a1a1a;
-}
-
-
-h1,
-.text-size-h1 {
   font-size: clamp(2.25rem, 1.8rem + 2vw, 3.05em);
+  line-height: 1.15;
+  color: #1a1a1a;
+  margin-top: 0;
+  margin-bottom: 1rem;
   font-style: italic;
 }
 
-h2,
-.text-size-h2 {
-  font-size: clamp(1.8rem, 1.4rem + 1.2vw, 2.44em);
+p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  max-width: 65ch;
 }
 
-h3,
-.text-size-h3 {
-  font-size: clamp(1.5rem, 1.1rem + 1vw, 1.95em);
+ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+  margin-bottom: 1.5em;
 }
 
-h4,
-.text-size-h4 {
-  font-size: clamp(1.25rem, 1rem + 0.6vw, 1.56em);
-}
-
-h5,
-.text-size-h5 {
-  font-size: clamp(1rem, 0.8rem + 0.4vw, 1.25em);
-}
-
-
-.text-caption {
-  font-size: 0.8em;
-  color: #666;
-}
-
-small,
-.text-small {
-  font-size: 0.64em;
-  color: #777;
+li {
+  margin-bottom: 0.5em;
+  font-size: 1em;
 }

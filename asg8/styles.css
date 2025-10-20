@@ -21,7 +21,7 @@
 }
 
 html {
-  font-size: 18px; /* increased base size for more comfortable text */
+  font-size: 18px;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   margin: 0;
-  padding: 3rem 8vw; /* responsive horizontal padding instead of fixed width */
+  padding: 3rem 8vw;
 }
 
 h1 {
@@ -48,7 +48,7 @@ h1 {
 p {
   font-size: 1.1em;
   margin-bottom: 2rem;
-  max-width: 90ch; /* comfortable line width without shrinking the layout */
+  max-width: 90ch;
 }
 
 ul {

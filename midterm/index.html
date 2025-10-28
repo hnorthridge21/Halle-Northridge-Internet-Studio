@@ -1,1 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Midterm Flexbox Menu</title>
+<style>
 
+  
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+  
+
+
+  
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 20px;
+	background-color: #f8f8f8;
+}
+
+
+  
+header {
+	background-color: #004d4d;
+	padding: 15px 30px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
+  
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+nav a:hover {
+	color: #ffd700;
+}
+
+  
+.cta {
+	display: flex;
+	gap: 10px;
+}
+
+.cta a {
+	text-decoration: none;
+	color: #004d4d;
+	background-color: #ffd700;
+	padding: 8px 14px;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+.cta a:hover {
+	background-color: #fff3a3;
+}
+
+
+  
+footer {
+	text-align: center;
+	background-color: #004d4d;
+	color: white;
+	padding: 15px;
+	margin-top: 40px;
+}
+
+
+  
+@media (max-width: 768px) {
+	header {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 10px;
+	}
+	nav ul {
+		flex-direction: column;
+		gap: 10px;
+	}
+	.cta {
+		flex-wrap: wrap;
+	}
+}
+</style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">My Destination</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="activities.html">Things To Do</a></li>
+        <li><a href="dining.html">Places To Eat</a></li>
+        <li><a href="statement.html">Design Statement</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="cta">
+      <a href="contact.html">Contact Us</a>
+      <a href="#">Book Now</a>
+      <a href="#">Request Info</a>
+    </div>
+  </header>
+
+  <footer>
+    <p>© 2025 Midterm Project | Your Name</p>
+  </footer>
+</body>
+</html>

@@ -24,15 +24,8 @@
 
  Insert all your glorious CSS styles below! */
 
-/* ========================================
-   Dodgeball Dream Team Stylesheet
-   Author: Your Name
-   File: style.css
-   ======================================== */
 
-/* -------------------------------
-   Color Palette
--------------------------------- */
+/* Color Palette */
 :root {
   --blue: #3B9AE1;
   --red: #FF6B6B;
@@ -41,7 +34,7 @@
   --white: #FFFFFF;
 }
 
-/* Background & body base */
+/* Background */
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -53,9 +46,7 @@ body {
   padding: 20px;
 }
 
-/* -------------------------------
-   Fluid Type Scale
--------------------------------- */
+/* Fluid Type Scale */
 :root {
   --step--2: clamp(0.64rem, 0.57rem + 0.29vw, 0.78rem);
   --step--1: clamp(0.8rem, 0.71rem + 0.34vw, 0.98rem);
@@ -65,9 +56,7 @@ body {
   --step-3: clamp(1.95rem, 1.72rem + 0.82vw, 2.44rem);
 }
 
-/* -------------------------------
-   Typography Styles
--------------------------------- */
+/* Fonts */
 h1 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: var(--step-3);
@@ -76,7 +65,7 @@ h1 {
   margin-bottom: 0.3em;
 }
 
-/* Make intro text white under the heading */
+
 .intro {
   color: var(--white);
   font-size: var(--step-0);
@@ -98,9 +87,7 @@ p {
   margin: 0.5em auto;
 }
 
-/* -------------------------------
-   Flexbox Gallery
--------------------------------- */
+/* Flexbox */
 .gallery {
   display: flex;
   flex-wrap: wrap;

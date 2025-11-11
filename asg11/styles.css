@@ -31,21 +31,23 @@
    ======================================== */
 
 /* -------------------------------
-   Color Palette (from Picular)
-   Electric Blue: #3B9AE1
-   Coral Red: #FF6B6B
-   Soft Gray: #F5F5F5
-   Midnight: #1B1B2F
-   Neutral White: #FFFFFF
+   Color Palette
 -------------------------------- */
+:root {
+  --blue: #3B9AE1;
+  --red: #FF6B6B;
+  --gray: #F5F5F5;
+  --dark: #1B1B2F;
+  --white: #FFFFFF;
+}
 
 /* Background & body base */
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(to bottom right, #1B1B2F, #3B9AE1);
+  background: linear-gradient(to bottom right, var(--dark), var(--blue));
   background-attachment: fixed;
-  color: #1B1B2F;
+  color: var(--dark);
   text-align: center;
   line-height: 1.6;
   padding: 20px;
@@ -67,25 +69,33 @@ body {
    Typography Styles
 -------------------------------- */
 h1 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: var(--step-3);
-  color: #FF6B6B;
-  letter-spacing: 2px;
-  margin-bottom: 0.5em;
+  color: var(--red);
+  letter-spacing: 1px;
+  margin-bottom: 0.3em;
+}
+
+/* Make intro text white under the heading */
+.intro {
+  color: var(--white);
+  font-size: var(--step-0);
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: var(--step-1);
-  color: #3B9AE1;
+  color: var(--blue);
   margin-top: 1em;
 }
 
 p {
   font-size: var(--step-0);
+  color: #333;
   max-width: 600px;
   margin: 0.5em auto;
-  color: #333333;
 }
 
 /* -------------------------------
@@ -100,7 +110,7 @@ p {
 }
 
 .member {
-  background: #FFFFFF; /* Neutral white box */
+  background: var(--white);
   border-radius: 15px;
   padding: 20px;
   flex: 1 1 250px;
@@ -114,16 +124,14 @@ p {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
 }
 
-/* Image styling */
 .member img {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  border: 3px solid #FF6B6B;
+  border: 3px solid var(--red);
 }
 
-/* Optional: make text slightly darker inside boxes */
 .member h2,
 .member p {
-  color: #1B1B2F;
+  color: var(--dark);
 }

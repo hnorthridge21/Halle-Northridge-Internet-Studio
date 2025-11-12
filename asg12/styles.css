@@ -41,6 +41,16 @@ main {
   justify-content: center;
 }
 
+h1 {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #ffa500;
+  padding: 10px 0px 10px 10px;
+}
+
 h2 {
   font-family: Poppins;
   font-size: 18px;

@@ -31,6 +31,10 @@ header, footer {
   min-width: 500px;
 }
 
+.intro {
+  text-align: center;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(4, 250px);

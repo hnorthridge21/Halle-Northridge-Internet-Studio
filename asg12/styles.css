@@ -24,45 +24,33 @@
 
  Insert all your glorious CSS styles below! */
 
-/* ---------------------------
-   Fonts
----------------------------- */
-@font-face {
-  font-family: 'Aleo';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/aleo-v16-latin-regular.woff2') format('woff2');
-}
-
-/* ---------------------------
-   Global Styles
----------------------------- */
 body {
-  background-image: url('https://www.bgjar.com/svg?color=FFECD1'); /* Replace this with your own BGJar image URL */
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #ffffff; /* White background for red & white theme */
+  background-image: url('https://www.transparenttextures.com/patterns/popcorn.png'); /* Popcorn texture */
+  background-size: 300px;
+  color: #b30000; /* Cinema red text for contrast */
   margin: 0;
   padding: 0;
   font-family: 'Work Sans', sans-serif;
-  color: #4a4a4a;
-  background-color: #fdfbf7;
+  line-height: 1.6;
 }
 
 /* ---------------------------
    Header & Footer
 ---------------------------- */
 header, footer {
-  background-color: #ffa500;
+  background-color: #b30000; /* Red */
   text-align: center;
   padding: 15px;
+  border-bottom: 5px dashed #ffffff; /* Less polished white dashed border */
 }
 
 header h1, footer p {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  color: white;
+  color: #ffffff;
   margin: 0;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 
 /* ---------------------------
@@ -73,9 +61,11 @@ header h1, footer p {
   max-width: 800px;
   margin: 20px auto;
   text-align: center;
-  font-size: 1.1em;
-  line-height: 1.6;
-  color: #406882;
+  font-size: 1.2em;
+  color: #b30000;
+  padding: 10px;
+  border: 2px dotted #b30000; /* Rougher dotted border */
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* ---------------------------
@@ -83,54 +73,50 @@ header h1, footer p {
 ---------------------------- */
 main {
   display: grid;
-  grid-template-columns: repeat(4, 250px);
-  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* More fluid layout */
+  gap: 20px;
   padding: 20px;
   justify-content: center;
 }
 
+/* ---------------------------
+   Movie Card Styles
+---------------------------- */
 .movie {
-  background-color: white;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  border: 3px dashed #b30000; /* Rough dashed border */
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: none; /* Remove polished shadow */
 }
 
-/* ---------------------------
-   Movie Elements
----------------------------- */
 .movie img {
   width: 100%;
   height: auto;
+  filter: contrast(0.9); /* Slightly faded film effect */
 }
 
 .movie h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  color: #ffa500;
-  margin: 8px 10px;
+  color: #b30000;
+  margin: 10px 0;
+  text-transform: uppercase;
 }
 
 .movie .description {
-  font-size: 14px;
-  line-height: 1.4;
-  padding: 10px;
-  border-top: 1px solid #e0e0e0;
+  color: #b30000;
+  padding: 8px;
+  border-top: 2px dotted #b30000; /* Match rough style */
+  font-size: 0.95em;
 }
 
 .movie .description a {
-  color: #406882;
-  text-decoration: none;
+  color: #b30000;
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 .movie .description a:hover {
-  text-decoration: underline;
-}
-
-/* ---------------------------
-   Container
----------------------------- */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+  color: #ff6666; /* Playful hover color */
 }

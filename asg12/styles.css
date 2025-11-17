@@ -24,6 +24,18 @@
 
  Insert all your glorious CSS styles below! */
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Favorite Movies Gallery</title>
+  <link rel="stylesheet" type="text/css" href="reset.css" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+</head>
+
 body {
   background-color: #ffffff; /* White background for red & white theme */
   background-image: url('https://www.transparenttextures.com/patterns/popcorn.png'); /* Popcorn texture */

@@ -24,9 +24,7 @@
 
  Insert all your glorious CSS styles below! */
 
-/* ---------------------------
-   Fonts
----------------------------- */
+/* Fonts */
 @font-face {
   font-family: 'Aleo';
   font-style: normal;
@@ -34,26 +32,21 @@
   src: url('../fonts/aleo-v16-latin-regular.woff2') format('woff2');
 }
 
-/* ---------------------------
-   Global Styles
----------------------------- */
 body {
-  background-image: url('images/bg.svg'); /* Your local background image */
+  background-image: url('images/bg.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;
   padding: 0;
   font-family: 'Work Sans', sans-serif;
-  color: #000000; /* Black text */
-  background-color: #fff8e7; /* Cream fallback */
+  color: #000000;
+  background-color: #fff8e7; 
 }
 
-/* ---------------------------
-   Header & Footer
----------------------------- */
+/* Header and Footer */
 header, footer {
-  background-color: #fff3d6; /* Light cream background */
+  background-color: #fff3d6;
   text-align: center;
   padding: 15px;
 }
@@ -61,14 +54,12 @@ header, footer {
 header h1, footer p {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  color: #000000; /* Black text */
+  color: #000000; 
   margin: 0;
   letter-spacing: 0.5px;
 }
 
-/* ---------------------------
-   Intro Paragraph
----------------------------- */
+
 .intro {
   font-family: 'Aleo', serif;
   max-width: 800px;
@@ -76,15 +67,13 @@ header h1, footer p {
   text-align: center;
   font-size: 1.1em;
   line-height: 1.6;
-  color: #000000; /* Black intro text */
-  background-color: #fff3d6; /* Light cream background */
+  color: #000000; 
+  background-color: #fff3d6; 
   padding: 15px;
   border-radius: 10px;
 }
 
-/* ---------------------------
-   Movie Grid Layout
----------------------------- */
+/*  Grid  */
 main {
   display: grid;
   grid-template-columns: repeat(4, 250px);
@@ -94,26 +83,24 @@ main {
 }
 
 .movie {
-  background-color: #ffffff; /* White cards */
+  background-color: #ffffff; 
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle black shadow */
-  border: 2px solid #000000; /* Black border around cards */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  border: 2px solid #000000; 
 }
 
-/* ---------------------------
-   Movie Elements
----------------------------- */
+
 .movie img {
   width: 100%;
   height: auto;
-  border-bottom: 2px solid #000000; /* Black underline under image */
+  border-bottom: 2px solid #000000; 
 }
 
 .movie h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  color: #000000; /* Black movie titles */
+  color: #000000; 
   margin: 8px 10px;
 }
 
@@ -121,12 +108,12 @@ main {
   font-size: 14px;
   line-height: 1.4;
   padding: 10px;
-  border-top: 1px solid #e0d8c0; /* Light cream divider */
-  color: #000000; /* Black description text */
+  border-top: 1px solid #e0d8c0; 
+  color: #000000; 
 }
 
 .movie .description a {
-  color: #000000; /* Black links */
+  color: #000000; 
   text-decoration: none;
 }
 
@@ -134,9 +121,6 @@ main {
   text-decoration: underline;
 }
 
-/* ---------------------------
-   Container
----------------------------- */
 .container {
   max-width: 1200px;
   margin: 0 auto;

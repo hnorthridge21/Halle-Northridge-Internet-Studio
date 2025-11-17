@@ -38,22 +38,22 @@
    Global Styles
 ---------------------------- */
 body {
-  background-image: url('images/bg.svg'); /* Your local background image */
-  background-size: cover;    /* Makes sure the image covers the whole screen */
-  background-repeat: no-repeat; 
-  background-position: center; /* Centers the image */
+  background-image: url('images/my-bg.jpg'); /* Your local background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 0;
   padding: 0;
   font-family: 'Work Sans', sans-serif;
-  color: #990000; /* Dark red text */
-  background-color: #ffffff; /* fallback white */
+  color: #000000; /* Black text */
+  background-color: #fff8e7; /* Cream fallback */
 }
 
 /* ---------------------------
    Header & Footer
 ---------------------------- */
 header, footer {
-  background-color: #ff0000; /* Red background */
+  background-color: #fff3d6; /* Light cream background */
   text-align: center;
   padding: 15px;
 }
@@ -61,7 +61,7 @@ header, footer {
 header h1, footer p {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  color: #ffffff; /* White text */
+  color: #000000; /* Black text */
   margin: 0;
   letter-spacing: 0.5px;
 }
@@ -76,8 +76,8 @@ header h1, footer p {
   text-align: center;
   font-size: 1.1em;
   line-height: 1.6;
-  color: #ff0000; /* Red intro text */
-  background-color: #ffe5e5; /* Light pink background */
+  color: #000000; /* Black intro text */
+  background-color: #fff3d6; /* Light cream background */
   padding: 15px;
   border-radius: 10px;
 }
@@ -97,8 +97,8 @@ main {
   background-color: #ffffff; /* White cards */
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0px 4px 6px rgba(255, 0, 0, 0.2); /* Red shadow */
-  border: 2px solid #ff0000; /* Red border around cards */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle black shadow */
+  border: 2px solid #000000; /* Black border around cards */
 }
 
 /* ---------------------------
@@ -107,13 +107,13 @@ main {
 .movie img {
   width: 100%;
   height: auto;
-  border-bottom: 2px solid #ff0000; /* Red underline under image */
+  border-bottom: 2px solid #000000; /* Black underline under image */
 }
 
 .movie h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  color: #ff0000; /* Red movie titles */
+  color: #000000; /* Black movie titles */
   margin: 8px 10px;
 }
 
@@ -121,12 +121,12 @@ main {
   font-size: 14px;
   line-height: 1.4;
   padding: 10px;
-  border-top: 1px solid #ffcccc; /* Light red divider */
-  color: #990000; /* Dark red description text */
+  border-top: 1px solid #e0d8c0; /* Light cream divider */
+  color: #000000; /* Black description text */
 }
 
 .movie .description a {
-  color: #ff0000; /* Red links */
+  color: #000000; /* Black links */
   text-decoration: none;
 }
 

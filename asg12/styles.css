@@ -38,7 +38,7 @@
    Global Styles
 ---------------------------- */
 body {
-  background-image: url('images/my-bg.jpg'); /* Your local background image */
+  background-image: url('images/bg.svg'); /* Your local background image */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

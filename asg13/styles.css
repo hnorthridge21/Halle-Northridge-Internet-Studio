@@ -24,13 +24,10 @@
 
  Insert all your glorious CSS styles below! */
 
-/* =====================
-   Base Styles
-   ===================== */
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: #f0f0ef url('images/bg-texture.jpg') repeat;
   color: #333;
   padding: 20px;
 }
@@ -46,9 +43,7 @@ p {
   margin-bottom: 15px;
 }
 
-/* =====================
-   Layout Grid
-   ===================== */
+
 .jobs-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -56,17 +51,14 @@ p {
   margin-top: 30px;
 }
 
-/* =====================
-   Job Card Styling
-   ===================== */
+
 .job {
   background: #ffffffcc;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* Header: Logo + Title side-by-side */
+
 .job-header {
   display: flex;
   align-items: center;
@@ -84,15 +76,11 @@ p {
   margin: 0;
 }
 
-/* Job Listing Link */
+
 .job a {
   font-weight: bold;
   color: #2a4f9d;
-  text-decoration: none;
   display: inline-block;
   margin-bottom: 10px;
 }
 
-.job a:hover {
-  text-decoration: underline;
-}

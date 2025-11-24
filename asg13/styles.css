@@ -41,12 +41,14 @@ h1, h2 {
 }
 
 p {
-  font-size: 1rem; 
+  font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 15px;
 }
 
-
+/* =====================
+   Layout Grid
+   ===================== */
 .jobs-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -54,27 +56,43 @@ p {
   margin-top: 30px;
 }
 
-
-.job-card {
+/* =====================
+   Job Card Styling
+   ===================== */
+.job {
   background: #ffffffcc;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-.job-card img {
-  max-width: 120px;
-  display: block;
+/* Header: Logo + Title side-by-side */
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
   margin-bottom: 15px;
 }
 
-.job-card a {
+.job-header img {
+  max-width: 70px;
+  height: auto;
+  display: block;
+}
+
+.job-header h2 {
+  margin: 0;
+}
+
+/* Job Listing Link */
+.job a {
   font-weight: bold;
   color: #2a4f9d;
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
-.job-card a:hover {
+.job a:hover {
   text-decoration: underline;
 }
-
